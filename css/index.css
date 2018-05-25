@@ -1,0 +1,341 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul,li,ol{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	height:173px;
+	background-color: #eeeeef;
+}
+.logo{
+	padding-top:30px;
+	text-align:center;
+	height:95px;
+}
+.nav{
+	width:672px;
+	height: 45px;
+	background-color: #fff;
+	margin:0 auto;
+	border-radius: 23px;
+}
+.nav li{
+	padding:0 30px;
+	float:left;
+	height:45px;
+	line-height:45px;
+	background:url(../images/line.png) no-repeat right center;
+	font-size: 14px;
+	font-family:微软雅黑;
+
+}
+.nav li a{
+	display:block;
+	height:42px;
+	color:#333;
+}
+.nav li a:hover{
+	border-bottom: 3px solid #1e50ae;
+	color:#1e50ae;
+}
+.nav li:last-child{
+	background:none;
+}
+.banner{
+	width: 100%;
+	height:405px;
+	background:url(../images/bgblue.png) no-repeat center center;
+}
+.serve{
+	width:1200px;
+	height:837px;
+	margin:0 auto;
+}
+.serve1{
+	width:100%;
+	height:169px;
+	text-align: center;
+}
+.serve1 p{
+	font-family: 微软雅黑;
+	font-size: 34px;
+	margin-top: 60px;
+	line-height: 54px;
+}
+.serve1 p span{
+	font-family: Tahoma;
+	font-size: 31.45px;
+}
+.serve2{
+	height:388px;
+	width:100%;
+	text-align:center;
+}
+.serve2 img{
+	margin-top:26px;
+}
+.serve2 p{
+	font-size: 16px;
+	font-family: 微软雅黑;
+}
+.serve2 ul{
+	width:65px;
+	margin:0 auto;
+}
+.serve2-1{
+	height:388px;
+	width:300px;
+	float:left;
+}
+.serve2-1 ul li{
+	list-style-image: url(../images/dian.png);
+	text-align: center;
+	font-size: 14px;
+	font-family:微软雅黑;
+	color:#909090;
+	text-align:left;
+}
+.solve{
+	height:708px;
+	background:url(../images/bluebg.png) no-repeat center center;
+}
+.solve h3{
+	font-size: 34px;
+	font-family: 微软雅黑;
+	margin-top:64px;
+	line-height: 54px;
+	text-align:center;
+	color:#ffffff;
+}
+.solve p{
+	font-family: Tahoma;
+	font-size: 31.45px;
+	text-align:center;
+	color:#ffffff;
+}
+.box{
+	width:1200px;
+	height:712px;
+	margin:0 auto;
+}
+.box1{
+	height:170px;
+	width:100%;
+}
+.box2{
+	width:1190px;
+	height:393px;
+	float:left;
+}
+.box2 li{
+	margin-left:28px;
+	margin-right:28px;
+	margin-top:51px;
+	float:left;
+	width:233px;
+	height:299px;
+}
+.box button{
+	width:230px;
+	height:50px;
+	border:1px solid #fff;
+	border-radius:25px;
+}
+.cc{
+	margin-left: 400px;
+}
+.kuai{
+	width:100%;
+	height:916px;
+	text-align: center;
+}
+.kuai h3{
+	margin-top: 60px;
+	font-size: 34px;
+	font-family:微软雅黑;
+	color:#333;
+}
+.kuai h4{
+	font-size: 31.45px;
+	font-family:Tohoma;
+	color:#333;
+}
+.kuai-1{
+	width:564px;
+	height:299px;
+	margin-top:188px;
+	margin-left:256px;
+	float:left;
+}
+.kuai-2{
+	width:564px;
+	height:299px;
+	margin-top:188px;
+	float:left;
+	text-align: left;
+}
+.kuai-2 h4{
+	font-size: 22px;
+	font-family: 微软雅黑；
+}
+.kuai-2 h5{
+	font-size:18px;
+	font-family: 微软雅黑；
+}
+.kuai-2 p{
+	padding-top:35px;
+	color:#969696;
+	font-family: 微软雅黑;
+	font-size:14px;
+}
+.kuai-3{
+	width:700px;
+	height:425px;
+	margin-top: 100px;
+	margin-left: 150px;
+	float: left;
+}
+.kuai-3 p{
+	padding-bottom: 17px;
+	padding-top: 17px;
+	padding-left: 80px;
+	font-size: 14px;
+	font-family: 微软雅黑；
+	color:#797979;
+}
+.kuai-3 span{
+	border-bottom:dashed #797979 1px;
+	padding-bottom: 17px;
+}
+.kuai-4{
+	width:700px;
+	height:425px;
+	margin-top: 100px;
+	margin-left:0px;
+	float:left;
+}
+.kuai-4 p{
+	padding-bottom: 17px;
+	padding-top: 17px;
+	padding-left: 80px;
+	font-size: 14px;
+	font-family: 微软雅黑；
+	color:#797979;
+}
+.kuai-4 span{
+	border-bottom:dashed #797979 1px;
+	padding-bottom: 17px;
+}
+.kuai2{
+	margin-top: 150px;
+	width:100%;
+	height:103px;
+	background-color:#f7f7f7;
+}
+.kuai2 li{
+	height:103px;
+	line-height:28px;
+	background:url(../images/changgang.png) no-repeat right center;
+	font-size: 19px;
+	float:left;
+	font-family:微软雅黑;
+	margin-left: 216px;
+	color:#4f4f4f;
+	text-align: left;
+}
+.kuai2 li:last-child{
+	background:none;
+}
+.kuai li image{
+	float:left;
+}
+.kuai2 li span{
+	font-size: 13px;
+	color:#4f4f4f;
+	line-height:43px;
+}
+.kuai3{
+	width:100%;
+	height:385px;
+	background-color: #323232;
+}
+.kuai3 ul{
+	float: left;	
+}
+.kuai3 ul:first-child{
+		margin-left:170px;
+}
+.kuai3 li{
+	color:#fff;
+	font-size: 13px;
+	line-height: 28px;
+	margin-left: 20px;
+	text-align: left;
+	width:161px;
+}
+.kuai3 li span{
+	font-size: 18px;
+	padding-bottom: 34px;
+	margin-top: 200px;
+}
+.l{
+	margin-left:0px;
+}
+.i{
+	margin-left: -20px;
+}
+.y{
+	margin-left:-100px;
+}
+.p{
+	text-align: center;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
